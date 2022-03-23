@@ -22,7 +22,9 @@
     .container .h-name h1 {
         font-size: 28px;
     }
-    .container .h-name h2, .container .h-educacao .item .title h2, .container .h-educacao .item .title span {
+    .container .h-name h2,
+     .container .h-educacao .item .title h2,
+     .container .h-educacao .item .title span {
         font-size: 22px;
     }
     /* Sobre */
@@ -57,7 +59,8 @@
         min-width: 100%;
         min-height: 100px;
     }
-    .container .h-experiencia .h-itens .item .description h2, .container .h-educacao .item .title {
+    .container .h-experiencia .h-itens .item .description h2,
+     .container .h-educacao .item .title {
         margin-bottom: 20px;
     }
 

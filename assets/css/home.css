@@ -36,7 +36,11 @@
     border-bottom: 2px solid #00E0FF;
     margin-bottom: 25px;
 }
-.container .h-sobre .h-title-sobre h2, .container .h-experiencia .h-title-experiencia h2, .container .h-educacao .h-title-educacao h2, .container .h-habilidades .h-title-habilidades h2, .container .h-contato .h-title-contato h2 {
+.container .h-sobre .h-title-sobre h2,
+ .container .h-experiencia .h-title-experiencia h2,
+  .container .h-educacao .h-title-educacao h2,
+   .container .h-habilidades .h-title-habilidades h2,
+    .container .h-contato .h-title-contato h2 {
     margin-top: 5%;
     font-family: 'Oswald', sans-serif;
     font-weight: bold;
@@ -50,7 +54,9 @@
     text-align: justify;
     font-size: 18px;
 }/* Experiência */
-.container .h-experiencia .h-title-experiencia, .container .h-educacao .h-title-educacao, .container .h-habilidades .h-title-habilidades {
+.container .h-experiencia .h-title-experiencia,
+ .container .h-educacao .h-title-educacao,
+  .container .h-habilidades .h-title-habilidades {
     width: 100%;
     height: 50px;
     border-bottom: 2px solid #00E0FF;
@@ -143,7 +149,8 @@
 .container .h-habilidades .item .title {
     min-width: 150px;
 }/*           habilidades                         contato*/
-.container .h-habilidades .item h2, .container .h-contato .item h2 {
+.container .h-habilidades .item h2,
+ .container .h-contato .item h2 {
     font-family: 'Oswald', sans-serif;
     font-weight: bold;
     font-size: 18px;
