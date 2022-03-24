@@ -24,21 +24,19 @@
     text-transform: uppercase;
     color: #00E0FF;
 }/* Sobre */
-.container .h-sobre,
+.container .h-tittle-div,
 .container .h-habilidades {
     width: 100%;
     min-height: 100px;
     margin-bottom: 100px;
 }
-.container .h-sobre .h-title-sobre {
+.container .h-tittle-div .h-tittle-texto {
     width: 100%;
     height: 50px;
     border-bottom: 2px solid #00E0FF;
     margin-bottom: 25px;
 }
-.container .h-sobre .h-title-sobre h2,
- .container .h-experiencia .h-title-experiencia h2,
-  .container .h-educacao .h-title-educacao h2,
+.container .h-tittle-div .h-tittle-texto h2,
    .container .h-habilidades .h-title-habilidades h2,
     .container .h-contato .h-title-contato h2 {
     margin-top: 5%;
@@ -48,36 +46,36 @@
     text-transform: uppercase;
     color: #000000;
 }
-.container .h-sobre .paragraf {
+.container .h-tittle-div .paragraf {
     font-family: 'Oswald', sans-serif;
     font-style: normal;
     text-align: justify;
     font-size: 18px;
 }/* Experiência */
-.container .h-experiencia .h-title-experiencia,
- .container .h-educacao .h-title-educacao,
+.container .h-tittle-div .h-tittle-texto,
   .container .h-habilidades .h-title-habilidades {
     width: 100%;
     height: 50px;
     border-bottom: 2px solid #00E0FF;
     margin-bottom: 50px;
 }
-.container .h-experiencia .h-itens, .container .h-educacao {
+.container .h-tittle-div .h-itens,
+ .container .h- {
     width: 100%;
     min-height: 100px;
 }
-.container .h-experiencia .h-itens .item {
+.container .h-tittle-div .h-itens .item {
     display: flex;
     flex-direction: row;
     width: 100%;
     min-height: 220px;
 }
-.container .h-experiencia .h-itens .item .work {
+.container .h-tittle-div .h-itens .item .work {
     min-width: 25%;
     max-width: 25%;
     min-height: 100px;
 }
-.container .h-experiencia .h-itens .item .work h2 {
+.container .h-tittle-div .h-itens .item .work h2 {
     font-family: 'Oswald', sans-serif;
     font-weight: bold;
     font-size: 22px;
@@ -85,18 +83,18 @@
     text-transform: uppercase;
     color: #000000;
 }
-.container .h-experiencia .h-itens .item .work p {
+.container .h-tittle-div .h-itens .item .work p {
     font-family: 'Oswald', sans-serif;
     font-weight: normal;
     font-size: 22px;
     text-transform: uppercase;
     color: #000000;
 }
-.container .h-experiencia .h-itens .item .description {
+.container .h-tittle-div .h-itens .item .description {
     width: 75%;
     min-height: 100px;
 }
-.container .h-experiencia .h-itens .item .description h2 {
+.container .h-tittle-div .h-itens .item .description h2 {
     font-family: 'Oswald', sans-serif;
     font-weight: bold;
     font-size: 22px;
@@ -104,35 +102,35 @@
     text-transform: uppercase;
     color: #00E0FF;
 }
-.container .h-experiencia .h-itens .item .description p {
+.container .h-tittle-div .h-itens .item .description p {
     font-family: 'Oswald', sans-serif;
     font-weight: normal;
     font-size: 18px;
     text-align: justify;
     color: #000000;
 }/* Educação */
-.container .h-educacao .item {
+.container .h-tittle-div .item {
     width: 100%;
     min-height: 220px;
 }
-.container .h-educacao .item .title {
+.container .h-tittle-div .item .title {
     margin-bottom: 10px;
 }
-.container .h-educacao .item .title h2 {
+.container .h-tittle-div .item .title h2 {
     font-family: 'Oswald', sans-serif;
     font-weight: bold;
     font-size: 22px;
     text-transform: uppercase;
     color: #232323;
 }
-.container .h-educacao .item .title span {
+.container .h-tittle-div .item .title span {
     font-family: 'Oswald', sans-serif;
     font-weight: bold;
     font-size: 22px;
     text-transform: uppercase;
     color: #00E0FF;
 }
-.container .h-educacao .item p {
+.container .h-tittle-div .item p {
     font-family: 'Oswald', sans-serif;
     font-weight: normal;
     text-align: justify;
@@ -166,29 +164,22 @@
     border-radius: 6px;
     background: transparent;
 }/* Percentuais */
+.percentual{
+    height: 100%;
+    border-radius: 6px;
+    background-color: #00E0FF;   
+}
 .container .h-habilidades .item .icon .percentual-10 {
     width: 110px;
-    height: 100%;
-    border-radius: 6px;
-    background-color: #00E0FF;   
 }
 .container .h-habilidades .item .icon .percentual-50 {
-    width: 150px;
-    height: 100%;
-    border-radius: 6px;
-    background-color: #00E0FF;   
+    width: 150px; 
 }
 .container .h-habilidades .item .icon .percentual-80 {
-    width: 180px;
-    height: 100%;
-    border-radius: 6px;
-    background-color: #00E0FF;   
+    width: 180px; 
 }
 .container .h-habilidades .item .icon .percentual-100 {
     width: 200px;
-    height: 100%;
-    border-radius: 6px;
-    background-color: #00E0FF;   
 }/* Contato */
 .container .h-contato {
     width: 100%;
