@@ -9,7 +9,7 @@
     }
 
     /* Experiência */
-    .container .h-experiencia .h-itens .item {
+    .container .h-tittle-div .h-itens .item {
         margin-bottom: 50px;
     }
 }
@@ -23,8 +23,8 @@
         font-size: 28px;
     }
     .container .h-name h2,
-     .container .h-educacao .item .title h2,
-     .container .h-educacao .item .title span {
+     .container .h-tittle-div .item .title h2,
+     .container .h-tittle-div .item .title span {
         font-size: 22px;
     }
     /* Sobre */
@@ -33,8 +33,8 @@
         min-height: 100px;
         margin-bottom: 50px;
     }
-    .container .h-sobre .h-title-sobre h2,
-    .container .h-educacao .h-title-educacao h2,
+    .container .h-tittle-div .h-tittle-texto h2,
+    .container .h-tittle-div .h-tittle-texto h2,
     .container .h-habilidades .h-title-habilidades h2,
     .container .h-contato .h-title-contato h2 {
         margin-top: 5%;
@@ -44,32 +44,32 @@
         font-size: 18px;
     }
     /* Experiências */
-    .container .h-experiencia .h-itens .item {
+    .container .h-tittle-div .h-itens .item {
         display: flex;
         flex-direction: column;
         width: 100%;
         min-height: 220px;
         margin-bottom: 50px;
     }
-    .container .h-experiencia .h-itens .item .work {
+    .container .h-tittle-div .h-itens .item .work {
         min-width: 100%;
         min-height: 80px;
     }
-    .container .h-experiencia .h-itens .item .description {
+    .container .h-tittle-div .h-itens .item .description {
         min-width: 100%;
         min-height: 100px;
     }
-    .container .h-experiencia .h-itens .item .description h2,
-     .container .h-educacao .item .title {
+    .container .h-tittle-div .h-itens .item .description h2,
+     .container .h-tittle-div .item .title {
         margin-bottom: 20px;
     }
 
     /* Educação */
-    .container .h-educacao .item {
+    .container .h-tittle-div .item {
         margin-bottom: 50px;
     }
 /* Habilidades */
-    .container .h-habilidades .item {
+    .container .h-tittle-div .item {
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -87,8 +87,8 @@
         font-size: 28px;
     }
     .container .h-name h2,
-    .container .h-educacao .item .title h2,
-    .container .h-educacao .item .title span {
+    .container .h-tittle-div .item .title h2,
+    .container .h-tittle-div .item .title span {
         font-size: 22px;
     }/* Sobre */
     .container .h-sobre {
@@ -97,43 +97,43 @@
         margin-bottom: 50px;
     }
     .container .h-sobre .h-title-sobre h2,
-    .container .h-experiencia .h-title-experiencia h2,
-    .container .h-educacao .h-title-educacao h2,
+    .container .h-tittle-div .h-tittle-texto h2,
+    .container .h-tittle-div .h-tittle-texto h2,
     .container .h-habilidades .h-title-habilidades h2,
     .container .h-contato .h-title-contato h2 {
         margin-top: 5%;
         font-size: 22px;
     }
-    .container .h-sobre .paragraf {
+    .container .h-tittle-div .paragraf {
         font-size: 18px;
     }/* Experiências */
-    .container .h-experiencia .h-itens .item {
+    .container .h-tittle-div .h-itens .item {
         display: flex;
         flex-direction: column;
         width: 100%;
         min-height: 220px;
         margin-bottom: 50px;
     }
-    .container .h-experiencia .h-itens .item .work {
+    .container .h-tittle-div .h-itens .item .work {
         min-width: 100%;
         min-height: 80px;
     }
-    .container .h-experiencia .h-itens .item .work h2,
-    .container .h-experiencia .h-itens .item .work p {
+    .container .h-tittle-div .h-itens .item .work h2,
+    .container .h-tittle-div .h-itens .item .work p {
         text-align: center;
     }
-    .container .h-experiencia .h-itens .item .description {
+    .container .h-tittle-div .h-itens .item .description {
         width: 100%;
         min-height: 100px;
     }
-    .container .h-experiencia .h-itens .item .description h2 {
+    .container .h-tittle-div .h-itens .item .description h2 {
         text-align: center;
         margin-bottom: 20px;
     }/* Educação */
-    .container .h-educacao .item {
+    .container .h-tittle-div .item {
         margin-bottom: 50px;
     }
-    .container .h-educacao .item .title {
+    .container .h-tittle-div .item .title {
         margin-bottom: 20px;
     }/* Habilidades */
     .container .h-habilidades .item {
